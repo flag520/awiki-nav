@@ -1,11 +1,4 @@
 @charset "utf-8";
-/**************************************************
- * 孟坤网页实验室新版样式文件
- * 编写：mengkun(https://mkblog.cn)
- * 时间：2017-8-28
- * 前端样式参照了腾讯 alloyteam
- * 所有代码均独立编写，谢绝一切形式的盗站行为！！
- *************************************************/
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +27,9 @@ img {border: none;}
     position: relative;
     color: #fff;
     overflow: hidden;
+    background: url(https://api.szfx.top/acg) no-repeat;
+    background-size: cover;
+    opacity: 0.75;
 }
 
 /* 头部动画区域 */
@@ -213,7 +209,11 @@ img {border: none;}
     -moz-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, .5)
 }
 
-.mk-color-item.color1 {
+/* 卡片背景颜色 */
+.mk-color-item.color2 {
+    background:url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a4491cd9-6330-4c3d-b164-de8301023d68/7af955a5-ab17-4b64-a570-2a3bcd345be0.gif);
+}
+/* .mk-color-item.color1 {
     background-color: #70c3ff!important;
 }
 .mk-color-item.color2 {
@@ -233,7 +233,7 @@ img {border: none;}
 }
 .mk-color-item.color6 {
     background-color: #888069!important;
-}
+} */
 
 .mk-color-item>p {
     white-space: nowrap;
